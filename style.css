@@ -1,0 +1,108 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #93abce;
+  color: #333;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+nav {
+  background-color: #e0ecff;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #0044cc;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #002f7a;
+}
+
+/* Bio Section */
+.bio-container {
+  max-width: 800px;
+  margin: auto;
+  position: relative;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bio-image {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 150px;
+  /* border-radius: 50%; */
+  /* border: 3px solid #aad1f7; */
+}
+
+.bio-text {
+  padding-right: 180px;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+th {
+  background-color: #dbefff;
+}
+
+/* Form Styles */
+form {
+  background: #ffffff;
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.radio-group {
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #388e3c;
+}
